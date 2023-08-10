@@ -6,16 +6,11 @@
   "scripts": {
     "test": "npx playwright test && npx playwright show-report"
   },
-  "keywords": [
-    "playwright",
-    "javascript"
-  ],
+  "keywords": [],
   "author": "Thomas Le",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.36.1"
-  },
-  "dependencies": {
+    "@playwright/test": "^1.36.1",
     "adm-zip": "^0.5.10"
   }
 }
