@@ -9,6 +9,9 @@ A take-home automation testing assignment for QA interview.
 
 ## Getting started
 
+### Test case and Bug report
+Please see the test cases and bug report from `resources/Testcase_1.0.xlsx`
+
 ### Pre-requisites
 * <a href="https://nodejs.org/it/download/current" target="_blank">Download and install Node.js</a>
 * Download and install any Text Editor like <a href="https://code.visualstudio.com/download" target="_blank">Visual Code</a>
