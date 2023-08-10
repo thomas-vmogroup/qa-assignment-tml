@@ -1,38 +1,36 @@
+
 # Technical QA Assessment
+
+
 A take-home automation testing assignment for QA interview.
 
-## Your Task
-1.	Develop API automation test to validate the following user stories using Typescript.
-2.	Write some high-level test scenarios for each user story.
-3.	Register the bug(s) found during testing.
+## Sumary of this framework
+* This is API Automation Testing using Playwright framework one of the powerfull testing framework
 
-### User Stories
-* User Story 1 - 
-In order to store and use my pictures through the https://assessement.onrender.com/api/image API service:
-As an Anonymous user,
-I want to attach a picture to the Service
-and I want to have a permanent link to this picture,
-Otherwise, I want to be rejected and informed if the file is not a picture.
+## Getting started
 
-* User Story 2 - 
-In order to save my time from uploading my pictures multiple times via https://assessement.onrender.com/api/zip API service:
-As an Anonymous user,
-I want to attach a zip file containing multiple images
-and I want each of these uploaded images to have a permanent link.
+### Pre-requisites
+* <a href="https://nodejs.org/it/download/current" target="_blank">Download and install Node.js</a>
+* Download and install any Text Editor like <a href="https://code.visualstudio.com/download" target="_blank">Visual Code</a>
 
-## Getting Started
-Please review the information in this section before you get started with your development. 
+### Setup Scripts 
+* Clone the repository into a folder
+* Go to Project root directory and install Dependency: `npm install`
+* All the dependencies from package.json would be installed in node_modules folder.
 
-* Create a personal fork of the project on Github.
-* Clone the fork on your local machine.
-* Implement your solution and push the test automation codes and test documents to forked repository.
-* When you are ready, submit the forked repo for review by providing the link to the repo to our recruitment team.
+### Install Visual Code Extension (Optional)
+* <a href="https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright" target="_blank">Playwright Test for VSCode</a>
 
-### Tools
-You are free to choose the IDE (Integrated Development Environment) tool you are most comfortable with.
+## Run Test
+* Go to the Project root directory and run command: `npm test`
 
-## Time Estimates
-This assignment should take about 2 to 4 hours of your time depending on your level of experiences. 
+## Run Single Spec and show the report
+* Go to the Project root directory and run command: e.g:  `npx playwright test tests/api-image.spec.ts && npx playwright show-report`
 
-## Need Help
-Create a github issue. We'll get back to you.
+## How to view default Playwright HTML report
+* After runing finished one html report would be automatically gennerated and displayed if has any case failed
+* You can generate the report manually by using this command: `npx playwright show-report`
+* Go to the Project root directory: `./playwright-report/index.html`
+
+### Playwright HTML Test Report
+![Playwright HTML Test Report](./resources/report.png?raw=true "Playwright HTML Test Report")
